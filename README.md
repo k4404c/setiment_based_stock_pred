@@ -145,6 +145,7 @@ In simpler terms, if we predict a signal of 1 today, the investment would only b
 To address this issue, we could retain hour/minute timestamps when collecting news data instead of discarding them, as was previously done. Additionally, acquiring intraday data for the relevant ticker could enhance the model's performance by capturing finer granularity.
 
 While this method could improve the model’s accuracy, it also introduces additional complexity, which is a critical consideration.
+
 ---
 
 ## Contributors
