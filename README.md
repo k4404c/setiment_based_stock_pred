@@ -104,7 +104,7 @@ This project leverages APIs, machine learning models, and data processing techni
 - In the below results, you will see that our base model obtains -11.3% (2.0% with no trading costs) returns. We see a growth in returns obtained when thresholding increases from 5 -> 10.
 - At -5,5 we obtain -3.6% (37.5% with no trading fee) returns, a notable increase from the base model.
 -   Because of our frequent trades, our fees are limiting our room for the gains we see.
-- When thresholding is at -10, 10, we see the best performance of our model, getting 4.65% returns (47.5% without trading fees). As we continue to increase our threshold, are trading fees continue to decrease, however, our gains become worse.
+- When thresholding is at -10, 10, we see the best performance of our model, getting 4.65% returns (47.5% without trading fees). As we continue to increase our threshold, our trading fees continue to decrease, however, our gains become worse.
 - When thresholding exceeds 95, there is no predicted signals swapped from the sentiment, so our adjusted model performs the same as our base model.
 
 - **Base Model Backtest Performance**:
